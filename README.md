@@ -2,7 +2,7 @@
 
 Demo: https://diogofgr.github.io/meme-generator/
 
-Start with this boilerplate [EmojiGenerator - workshop](https://codepen.io/diogofgr/pen/PvdXeM "A CodePen by diogofgr")
+Start with this boilerplate [Meme Generator - boilerplate](https://codepen.io/diogofgr/pen/XWWvKRq?editors=1010 "A CodePen by diogofgr")
 
 ## Instructions:
 
@@ -16,7 +16,7 @@ const memeImageInput = document.getElementById('meme-image-input');
 ```
 These variables are now **references to our inputs and outputs**. Later we will use them to read what the user iputs and show the output (the meme 🎉)
 
-*Note*: You should have 9 in total (6 inputs and 3 outputs). If you `console.log` them you should NOT see any `undefined`. **If you see any `undefined` then start debugging**.
+**Note**: You should have 9 in total (6 inputs and 3 outputs). If you `console.log` them you should NOT see any `undefined`. **If you see any `undefined` then start debugging**.
 ```javascript
 console.log(memeContainer, memeImageInput, etc);
 ```  
@@ -52,7 +52,7 @@ Change the background image of the output:
 ```javascript
 memeContainer.style.backgroundImage = `url(${imageSrc})`;
 ```
-*Note:* at this point, clicking `Generate Meme` should show your new meme. If it doesn't you need to start debugging.
+**Note:** at this point, clicking `Generate Meme` should show your new meme. If it doesn't you need to start debugging.
 
 3. (Optional) Save the meme - in a new event listener
 
@@ -88,7 +88,7 @@ const options = {
     backgroundColor: '#111111'
 }
 ```
-*Note:* you should now be able to click `Save` and see a second meme on the screen. If not start debugging.
+**Note:** you should now be able to click `Save` and see a second meme on the screen. If not start debugging.
 
 4. (Optional) Hide the original after Save
 
