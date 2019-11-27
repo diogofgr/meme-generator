@@ -18,6 +18,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-position: "center";
+    background-size: "cover";
+    background-repeat: no-repeat;
+    background-image: url("https://portfortune.files.wordpress.com/2016/02/surprised-cat-1.jpg");
 }
 
 .meme-container p {
