@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    min-height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meme-container {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meme-container p {
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    font-size: 10vh;
+    letter-spacing: -0.08em;
+    word-spacing: -0.3em;
+    line-height: 0.75;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #111;
+    margin: 25px 5px 10px 5px;
+}
+
+.meme-inputs {
+    padding: 10px 5px;
+}
+
+.meme-inputs label {
+    padding-right: 10px;
+    vertical-align: center;
+}
+
+.meme-inputs > div {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:700&display=swap" rel="stylesheet">   <link rel="stylesheet" href="style.css">
+    <title>Wild Meme Generator</title>
+</head>
+<body>
+    <div class="page-content">
+        <div class="meme-inputs">
+            <div>
+                <label for="">Meme Image URL</label>
+                <input id="meme-image-input" type="file" id="userPicture" />
+            </div>
+            <div>
+                <label for="">Top text</label>
+                <input id="top-text-input" type="text">
+            </div>
+            <div>
+                <label for="">Bottom text</label>
+                <input id="bottom-text-input" type="text">
+            </div>
+            <div>
+                <input id="btn-save" type="submit" value="Save">
+                <input id="btn-generate" type="submit" value="Generate Meme">
+            </div>
+        </div>
+        <div><img id="meme-output" src=""></div>
+        <div id="meme-container" class="meme-container">
+            <p id="top-text-ouput">That moment</p>
+            <p id="bottom-text-ouput">Alexandra comes to nagg you</p>
+        </div>
+        
+    </div>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
